@@ -1,0 +1,38 @@
+# Operating system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Optional local tooling / dependency directories
+node_modules/
+vendor/
+
+# Common generated output directories
+dist/
+build/
+coverage/
+.cache/
+.parcel-cache/
+.vite/
+
+# OS and tooling metadata
+Thumbs.db
+desktop.ini
